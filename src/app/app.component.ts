@@ -12,6 +12,6 @@ export class AppComponent {
   second:number = 15;
 
   largestNumber() {
-    return Math.max( 5, 15);
+    return Math.max( this.first, this.second);
   }
 }

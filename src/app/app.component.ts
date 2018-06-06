@@ -7,4 +7,11 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'app';
+
+  first:number = 5;
+  second:number = 15;
+
+  largestNumber() {
+    return Math.max( this.first, this.second);
+  }
 }
